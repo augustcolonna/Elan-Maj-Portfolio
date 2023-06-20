@@ -1,0 +1,122 @@
+
+// colors
+//blue #64BFE2 brown #23120B orange #E76A30
+//white #EEEDED
+
+.nav-bar {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+  }
+  
+  .logo {
+    text-decoration: none;
+    margin: 0 auto;
+  }
+  
+  .logo h1 {
+    font-family: 'Libre Barcode 39 text';
+    font-size: 5rem;
+    color: #e76a30;
+    height: 100%;
+  }
+  
+  .logo h1:hover{
+    text-shadow: #EEEDED 2px 2px 0;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+  }
+  
+  nav a {
+    font-size: 3rem;
+    position: relative;
+    text-decoration: none;
+    color: #e76a30;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+  
+    i {
+      transition: all 0.3s ease-out;
+    }
+  
+    &:hover {
+      color: #e76a30;
+      text-shadow: #EEEDED 2px 2px 0;
+  
+      svg {
+        opacity: 0;
+      }
+  
+      &:after {
+        opacity: 1;
+      }
+    }
+  
+    &:after {
+      content: '';
+      font-size: 2.5rem;
+      font-weight: 800;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      text-align: center;
+      opacity: 0;
+      transition: all 0.3s ease-out;
+    }
+  
+    &:first-child {
+      &:after {
+        content: 'About';
+      }
+    }
+  }
+  
+  a.portfolio-link {
+    &::after {
+      content: 'Photos';
+    }
+  }
+  
+  a.contact-link {
+    &::after {
+      content: 'Contact';
+    }
+  }
+  
+  a.active {
+    svg {
+      color: #e76a30;
+    }
+  }
+  
+  ul {
+    list-style: none;
+    line-height: 2.3rem;
+    margin: 0 auto;
+    padding: 0;
+  
+    a {
+      color: #e76a30;
+      text-decoration: none;
+      font-size: 1.4rem;
+      font-weight: 800;
+  
+      &:hover {
+        color: #EEEDED;
+        text-transform: uppercase;
+      }
+    }
+  }
+  
