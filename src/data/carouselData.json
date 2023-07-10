@@ -1,36 +1,33 @@
 {
     "slides": [
+        
         {
-            "src":"../assets/_MG_0415.jpg",
-            "alt":"image one"
-        },
-        {
-            "src":"../assets/CPIMG_5431.jpg",
+            "src":"src/assets/CPIMG_5431.jpg",
             "alt":"image two"
         },
         {
-            "src":"../assets/EL236A1709.jpg",
+            "src":"src/assets/EL236A1709.jpg",
             "alt":"image three"
         },
         {
-            "src":"../assets/FAIMG_6733.jpg",
-            "alt":"image 4"
+            "src":"src/assets/FAIMG_6837.jpg",
+            "alt":"image four"
         },
         {
-            "src":"../assets/G-IMG_2464.jpg",
-            "alt":"image 5"
+            "src":"src/assets/G-IMG_2464.jpg",
+            "alt":"image five"
         },
         {
-            "src":"../assets/ISIMG_6052.jpg",
-            "alt":"image 6"
+            "src":"src/assets/ISIMG_6052.jpg",
+            "alt":"image six"
         },
         {
-            "src":"../assets/SFIMG_6617.jpg",
-            "alt":"iamge 7"
+            "src":"src/assets/SLPIMG_5749.jpg",
+            "alt":"image seven"
         },
         {
-            "src":"../assets/SLPIMG_5749.jpg",
-            "alt":"image 8"
+            "src":"src/assets/ISIMG_6052.jpg",
+            "alt":"image one"
         }
     ]
 }
