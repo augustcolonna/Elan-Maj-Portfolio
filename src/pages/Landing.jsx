@@ -5,7 +5,7 @@ function Landing() {
     <div className="landing-page">
       <h1>More film grain the better.</h1>
       <Link to="/portfolio">
-        <button>Take a look</button>
+        <button>Full Gallery</button>
       </Link>
     </div>
   )
