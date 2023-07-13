@@ -6,8 +6,11 @@ import {
   faCompass,
   faPerson,
 } from '@fortawesome/free-solid-svg-icons'
+// import { useState } from 'react'
 
 const Navbar = () => {
+  // const [currentPage, setCurrentPage] = useState(false)
+  
   return (
     <div className="nav-bar">
       <Link className="logo" to="/">

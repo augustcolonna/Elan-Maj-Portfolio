@@ -17,7 +17,7 @@ const Carousel = ({ data }) => {
   return (
     <div className="carousel">
       <FontAwesomeIcon
-        icon={faArrowLeft} 
+        icon={faArrowLeft}
         className="arrow arrow-left"
         onClick={prevSlide}
       />
@@ -34,7 +34,8 @@ const Carousel = ({ data }) => {
           )
         })
       }
-      <FontAwesomeIcon icon={faArrowRight} 
+      <FontAwesomeIcon
+        icon={faArrowRight}
         className="arrow arrow-right"
         onClick={nextSlide}
       />
