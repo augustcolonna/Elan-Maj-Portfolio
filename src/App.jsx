@@ -14,7 +14,7 @@ function App() {
       <Route
         path="/"
         element={
-          <div>
+          <div className='page'>
             <Navbar />
             <Carousel data={slides} />
             <Landing />
@@ -25,7 +25,7 @@ function App() {
       <Route
         path="/portfolio"
         element={
-          <div>
+          <div className='page'>
             <Navbar />
             <Gallery />
           </div>

@@ -167,12 +167,13 @@ function Gallery() {
   ]
 
   return (
-    <div>
+    <div className='image-gallery-wrapper'>
       <ImageGallery
         items={images}
         showThumbnails={true}
         showFullscreenButton={false}
         thumbnailPosition="top"
+        lazyLoad={true}
         autoPlay={true}
         slideInterval={5000}
       />
