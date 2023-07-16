@@ -43,7 +43,7 @@
 // }
 
 .landing-page {
-  height: 200px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -79,7 +79,16 @@
     }
   }
 
+}
 
+.photo-types {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 50px;
+  grid-row-gap: 20px;
+  justify-items: center;
+  align-items: center;
 }
 
 
