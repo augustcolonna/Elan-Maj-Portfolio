@@ -42,26 +42,6 @@ const Navbar = () => {
           <FontAwesomeIcon icon={faCompass} style={{ color: '#e76a30' }} />
         </NavLink>
       </nav>
-      <ul>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://www.instagram.com/elan.maj/"
-          >
-            Instagram
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://www.linkedin.com/in/elan-maj-43a609109/"
-          >
-            linkedin
-          </a>
-        </li>
-      </ul>
     </div>
   )
 }

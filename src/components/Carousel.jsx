@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import '../styles/carousel.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight, faArrowLeft } from '@fortawesome/free-solid-svg-icons'
@@ -24,6 +25,7 @@ const Carousel = ({ data }) => {
       {
         // eslint-disable-next-line react/prop-types
         data.map((item, index) => {
+          
           return (
             <img
               className={slide === index ? 'slide' : 'slide slide-hidden'}

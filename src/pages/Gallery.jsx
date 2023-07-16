@@ -171,11 +171,13 @@ function Gallery() {
       <ImageGallery
         items={images}
         showThumbnails={true}
-        showFullscreenButton={false}
+        showFullscreenButton={true}
         thumbnailPosition="top"
-        lazyLoad={true}
-        autoPlay={true}
-        slideInterval={5000}
+        lazyLoad={false}
+        showPlayButton={true}
+        autoPlay={false}
+        slideInterval={5000} 
+          
       />
     </div>
   )

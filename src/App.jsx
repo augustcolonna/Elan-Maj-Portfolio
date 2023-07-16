@@ -2,8 +2,9 @@ import './styles/App.scss'
 import Navbar from './components/Navbar'
 import Landing from './pages/Landing'
 import AboutMe from './pages/AboutMe'
-import Carousel from './components/Carousel'
-import { slides } from './data/carouselData.json'
+import ContactMe from './pages/ContactMe'
+// import Carousel from './components/Carousel'
+// import { slides } from './data/carouselData.json'
 // import { gallery } from './data/galleryData.json'
 import { Routes, Route } from 'react-router-dom'
 import Gallery from './pages/Gallery'
@@ -14,9 +15,9 @@ function App() {
       <Route
         path="/"
         element={
-          <div className='page'>
+          <div>
             <Navbar />
-            <Carousel data={slides} />
+            {/* <Carousel data={slides} /> */}
             <Landing />
           </div>
         }
@@ -25,9 +26,18 @@ function App() {
       <Route
         path="/portfolio"
         element={
-          <div className='page'>
+          <div>
             <Navbar />
             <Gallery />
+          </div>
+        }
+      />
+      <Route
+        path="/contact"
+        element={
+          <div>
+            <Navbar />
+            <ContactMe />
           </div>
         }
       />

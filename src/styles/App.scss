@@ -6,11 +6,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-body{
+
+
+#root, body, html{
   height: 100vh;
   width: 100vw;
   padding: 0;
-  margin: 0 auto;
+  margin: 0;
   box-sizing: border-box;
   background-color: #001220;
   display: flex;
@@ -18,13 +20,27 @@ body{
   overflow: auto;
   font-family: 'Source Code Pro', monospace;
   color: #eEEded;
-  
 }
 
-.page {
-  height: 100vh;
-  width: 100vw;
+#root::-webkit-scrollbar {
+  width:0px;               /* width of the entire scrollbar */
 }
+
+#root::-webkit-scrollbar-track {
+  background: transparent;        /* color of the tracking area */
+}
+
+#root::-webkit-scrollbar-thumb {
+  background-color: transparent;    /* color of the scroll thumb */
+ 
+}
+
+// .page {
+//   height: 100vh;
+//   width: 100vw;
+//   padding: 0;
+//   margin: 0;
+// }
 
 .landing-page {
   height: 200px;
@@ -32,6 +48,11 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s; /* Firefox < 16 */
+  -ms-animation: fadein 2s; /* Internet Explorer */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+  animation: fadein 2s;
 
   h1 {
     color: #E76A30;
@@ -61,6 +82,51 @@ body{
 
 }
 
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 
 
