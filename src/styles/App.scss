@@ -94,12 +94,12 @@ html {
     flex: 1;
     justify-content: center;
     align-items: center;
-    transition: all 0.3s ease-out;
+    cursor: pointer;
+  
   }
   img {
     width: 200px;
     height: 100%;
-  
   }
 
 }

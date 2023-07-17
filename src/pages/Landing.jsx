@@ -50,28 +50,28 @@ function Landing() {
       <div className="photo-types">
         <div
           className="photo-container"
-          onMouseEnter={() => generateUrl(actionAndOutDoors, setActionPhoto)}
+          onClick={() => generateUrl(actionAndOutDoors, setActionPhoto)}
         >
           <h1>Action & Outdodors</h1>
           <img className="fill" src={actionPhoto} />
         </div>
         <div
           className="photo-container"
-          onMouseEnter={() => generateUrl(specialOccassions, setSpecialPhoto)}
+           onClick={() => generateUrl(specialOccassions, setSpecialPhoto)}
         >
           <h1>Special Occassions</h1>
           <img className="fill" src={specialPhoto} />
         </div>
         <div
           className="photo-container"
-          onMouseEnter={() => generateUrl(profileShots, setProfilePhoto)}
+          onClick={() => generateUrl(profileShots, setProfilePhoto)}
         >
           <h1>Profiles</h1>
           <img className="fill" src={profilePhoto} />
         </div>
         <div
           className="photo-container"
-          onMouseEnter={() => generateUrl(aestheticShots, setAestheticPhoto)}
+          onClick={() => generateUrl(aestheticShots, setAestheticPhoto)}
         >
           <h1>Aesthetic</h1>
           <img className="fill" src={aestheticPhoto} />
