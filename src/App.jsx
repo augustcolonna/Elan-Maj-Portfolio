@@ -15,11 +15,11 @@ function App() {
       <Route
         path="/"
         element={
-          <div>
+          <>
             <Navbar />
             {/* <Carousel data={slides} /> */}
             <Landing data={photos}/>
-          </div>
+          </>
         }
       />
       <Route path="/aboutme" element={<AboutMe />} />
