@@ -57,7 +57,7 @@ function Landing() {
         </div>
         <div
           className="photo-container"
-           onClick={() => generateUrl(specialOccassions, setSpecialPhoto)}
+          onClick={() => generateUrl(specialOccassions, setSpecialPhoto)}
         >
           <h1>Special Occassions</h1>
           <img className="fill" src={specialPhoto} />
