@@ -155,7 +155,7 @@ ul {
 
     &:hover {
       color: #e76a30;
-      text-shadow: #eeeded 2px 2px 0;
+      text-shadow: rgba(255, 69, 0, 0.4) 2px 2px 0;
 
       svg {
         opacity: 0;
@@ -218,7 +218,7 @@ ul {
       font-weight: 800;
 
       &:hover {
-        color: #eeeded;
+        text-shadow: rgba(255, 69, 0, 0.4) 2px 2px 0;
         text-transform: uppercase;
       }
     }

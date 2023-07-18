@@ -48,38 +48,37 @@ function Landing() {
 
   return (
     <div className="landing-page">
+    <h1>More film grain the better.</h1>
       <div className="photo-types">
         <div
           className="photo-container"
           onClick={() => generateUrl(actionAndOutDoors, setActionPhoto)}
         >
-          <h1>Action & Outdodors</h1>
+          <h2>Action & Outdodors</h2>
           <img className="fill" src={actionPhoto} />
         </div>
         <div
           className="photo-container"
           onClick={() => generateUrl(specialOccassions, setSpecialPhoto)}
         >
-          <h1>Special Occassions</h1>
+          <h2>Special Occassions</h2>
           <img className="fill" src={specialPhoto} />
         </div>
         <div
           className="photo-container"
           onClick={() => generateUrl(profileShots, setProfilePhoto)}
         >
-          <h1>Profiles</h1>
+          <h2>Profiles</h2>
           <img className="fill" src={profilePhoto} />
         </div>
         <div
           className="photo-container"
           onClick={() => generateUrl(aestheticShots, setAestheticPhoto)}
         >
-          <h1>Aesthetic</h1>
+          <h2>Aesthetic</h2>
           <img className="fill" src={aestheticPhoto} />
         </div>
       </div>
-
-      <h2>More film grain the better.</h2>
       <Link to="/portfolio">
         <button>Full Gallery</button>
       </Link>
