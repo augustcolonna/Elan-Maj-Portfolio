@@ -3,14 +3,12 @@
 //white #EEEDED
 
 .nav-bar {
-  width: 100% !important; 
+  width: 100% !important;
   height: 120px !important;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
- 
-  
 }
 
 #logo {
@@ -115,27 +113,25 @@ ul {
     font-weight: 800;
 
     &:hover {
-      color: #eeeded;
+      text-shadow: rgba(255, 69, 0, 0.4) 2px 2px 0;
       text-transform: uppercase;
     }
   }
 }
-
-
 
 @media only screen and (max-width: 472px) {
   #logo {
     text-decoration: none !important;
     margin: 5px !important;
   }
-  
+
   #logo h1 {
     font-family: 'Libre Barcode 39 text';
     font-size: 4rem !important;
     color: #e76a30;
     height: 100%;
   }
-  
+
   nav {
     display: flex;
     flex-direction: row;
@@ -143,7 +139,7 @@ ul {
     width: 40% !important;
     margin: 5px;
   }
-  
+
   nav a {
     font-size: 3rem;
     position: relative;
@@ -152,24 +148,24 @@ ul {
     width: 20% !important;
     display: flex;
     justify-content: center;
-  
+
     i {
       transition: all 0.3s ease-out;
     }
-  
+
     &:hover {
       color: #e76a30;
       text-shadow: #eeeded 2px 2px 0;
-  
+
       svg {
         opacity: 0;
       }
-  
+
       &:after {
         opacity: 1;
       }
     }
-  
+
     &:after {
       content: '';
       font-size: 1.5rem;
@@ -183,51 +179,48 @@ ul {
       opacity: 0;
       transition: all 0.3s ease-out;
     }
-  
+
     &:first-child {
       &:after {
         content: 'About';
       }
     }
   }
-  
+
   a.portfolio-link {
     &::after {
       content: 'Photos';
     }
   }
-  
+
   a.contact-link {
     &::after {
       content: 'Contact';
     }
   }
-  
+
   a.active {
     svg {
       color: #e76a30;
     }
   }
-  
+
   ul {
     list-style: none;
     line-height: 2.3rem;
     margin: 0 auto;
     padding: 0;
-  
+
     a {
       color: #e76a30;
       text-decoration: none;
       font-size: 1.4rem;
       font-weight: 800;
-  
+
       &:hover {
         color: #eeeded;
         text-transform: uppercase;
       }
     }
   }
-
 }
-
-

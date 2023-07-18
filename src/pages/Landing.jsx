@@ -45,6 +45,7 @@ function Landing() {
     setPhoto(url)
   }
 
+
   return (
     <div className="landing-page">
       <div className="photo-types">
