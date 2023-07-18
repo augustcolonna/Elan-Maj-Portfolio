@@ -79,7 +79,7 @@ function Landing() {
         </div>
       </div>
 
-      <h1>More film grain the better.</h1>
+      <h2>More film grain the better.</h2>
       <Link to="/portfolio">
         <button>Full Gallery</button>
       </Link>
