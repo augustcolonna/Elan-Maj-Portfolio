@@ -179,7 +179,7 @@ function Gallery() {
         showThumbnails={true}
         showFullscreenButton={true}
         thumbnailPosition="top"
-        lazyLoad={false}
+        lazyLoad={true}
         showPlayButton={true}
         autoPlay={false}
         slideInterval={5000}
