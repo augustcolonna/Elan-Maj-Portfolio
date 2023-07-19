@@ -45,16 +45,15 @@ function Landing() {
     setPhoto(url)
   }
 
-
   return (
     <div className="landing-page">
-    <h1>More film grain the better.</h1>
+      <h1>More film grain the better.</h1>
       <div className="photo-types">
         <div
           className="photo-container"
           onClick={() => generateUrl(actionAndOutDoors, setActionPhoto)}
         >
-          <h2>Action & Outdodors</h2>
+          <h2>Action & Outdoors</h2>
           <img className="fill" src={actionPhoto} />
         </div>
         <div
